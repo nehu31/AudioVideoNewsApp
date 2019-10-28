@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".TabFive">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginTop="45dp"
+    android:id="@+id/headphone"
+    android:src="@drawable/headphone"/>
+
+<LinearLayout
+    android:layout_marginTop="45dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="45dp"
+
+        android:layout_height="35dp"
+        android:background="@drawable/ic_play_arrow_black_24dp"
+android:layout_marginLeft="30dp"
+        android:id="@+id/btn1"/>
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="210dp"
+        android:background="@drawable/ic_stop_black_24dp" />
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

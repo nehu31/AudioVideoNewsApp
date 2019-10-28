@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+
+    tools:context=".TabThree">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_width="401dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:src="@drawable/contact"
+        android:id="@+id/img" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:id="@+id/text"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:text="DailyFeed provides a smooth experience to view the news on-the-go! We promise to provide quality products that improve the user experience. You can also add the news to favourites and view it later at anytime and anywhere. There is also a camera included in the app that allows you to post pictures and create your own news and share it!"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Email Id: dailyfeed@gmail.com"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/email"
+        android:textStyle="bold"
+        android:textColor="#000080"/>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/phone"
+        android:textSize="18dp"
+        android:text="Phone no: 545454666"
+        android:textStyle="bold"
+        android:textColor="#000080"
+        />
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Location"
+        android:textColor="?attr/colorAccent"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/TextViewCoords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationTextView"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextViewCoords"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Address"
+android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/TextViewAddr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addressTextView"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+
+        android:padding="15dp"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
+
+
+
+</ScrollView>
